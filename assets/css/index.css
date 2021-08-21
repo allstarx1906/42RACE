@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #fff;
+    font-size: 14px;
+    height: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+}
+
 .header{
     position: relative;
     display: block;
@@ -172,4 +180,282 @@
     font-size: 16px;
     text-align: center;
     color: #637381;
+}
+
+.box-challenging-fun{
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 64px 36px 63px 92px;
+}
+
+.box-challenging-fun .box-infor{
+    position: relative;
+    width: 41.666667%;
+    padding-top: 33px;
+    float: left;
+}
+
+
+.box-challenging-fun .box-infor .title{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    font-size: 24px;
+    color: #212b36;
+}
+.box-challenging-fun .box-infor .note{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    color: #212b36;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.box-challenging-fun .box-infor .btn-view-race{
+    display: inline-block;
+    background: #ec3232;
+    box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 6%);
+    border-radius: 6px;
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.list-event {
+    width: 58.333333%;
+}
+
+.box-current-race{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    max-width: 472px;
+    float: right;
+}
+
+.box-current-race a{
+   padding: 3px;
+   display: inline-grid;
+}
+.box-current-race li{
+    float: left;
+    display: grid;
+    height: 117px;
+    max-width: 236px;
+    width: 100%;
+}
+
+
+.box-race-wrapper{
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    background-position: 50% 50%;
+    background-image: url("https://virtual-race-submissions.s3-ap-southeast-1.amazonaws.com/images/List-Banner-1-jpg-e3h18082020-53812");
+}
+
+.box-race-wrapper .title{
+    background: rgba(15,20,25,.7);
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 20% 0 0;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Nunito Sans,Helvetica,Arial,sans-serif;
+    color: #fff;
+    opacity: 0;
+}
+
+.list-event li:hover .box-race-wrapper{
+    background-size: 100%;
+    transition: 0.3s;
+}
+
+.list-event li:hover .box-race-wrapper .title{ 
+opacity: 1;
+-webkit-transition: opacity .45s ease-in-out;
+transition: opacity .45s ease-in-out;
+}
+
+
+.box-rewarding-experience{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 64px 0px;
+}
+
+.box-rewarding-experience .list{
+    position: relative;
+    float: right;
+    width: 63%;
+
+
+}
+
+.box-rewarding-experience  ul{
+    display: inline-block;
+    padding-left: 116px;
+}
+
+.box-rewarding-experience .box-infor{
+    width: 36%;
+    float: right;
+    padding-right: 92px;
+}
+
+.list li{
+    float: left;
+    display: grid;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.box-rewarding-experience .box-infor .title{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    font-size: 24px;
+    color: #212b36;
+    padding: 99px 0px 16px 0px;
+}
+
+.box-rewarding-experience .box-infor .note{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    color: #454f5b;
+}
+
+.box-instagram-comumity{
+    padding: 64px 87px 64px 92px;
+    width: 100%;
+}
+
+.box-instagram-comumity .list{
+    width: 50%;
+    padding: 57px 20px 0px 0px;
+}
+
+.box-instagram-comumity .list .title{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    font-size: 24px;
+    color: #212b36;
+}
+
+.box-instagram-comumity .list .note{
+    padding: 16px 0px;
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    color: #212b36;
+}
+
+.box-instagram-comumity span{
+    color: red;
+}
+
+.box-instagram-comumity  .btn-join-community{
+    background:red;
+    box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 6%);
+    border-radius: 8px;
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 16px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.box-get-app{
+    padding:56px 75px 0px 84px;
+    display: flex;
+}
+
+.box-get-app .box-photo-app{
+    width: 54%;
+    /* float: right; */
+}
+
+.box-get-app .box-photo-app img{
+    width: 100%;
+    max-width: 409px;
+    /* float: right; */
+}
+
+.box-get-app .box-infor{
+    padding-left: 40px;
+    float: right;
+    width: 45%;
+}
+
+.box-get-app .box-infor .title{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    font-size: 24px;
+    color: #212b36;
+    padding-top: 103px;
+}
+
+.box-get-app .box-infor .note{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    color: #212b36;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.box-btn-mobile-app a {
+    background: 0 0;
+    width: 132px;
+    height: 39px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.box-btn-mobile-app .btn-ios {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/web42-assets/images/icons/appstore-button.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.box-btn-mobile-app .btn-android {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/web42-assets/images/icons/playstore-button.png);
+    background-size: cover;
+    background-position: 50%;
+    margin-left: 8px;
 }
