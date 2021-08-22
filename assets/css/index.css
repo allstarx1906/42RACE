@@ -12,6 +12,10 @@ body{
     line-height: 1.5;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header{
     position: relative;
     display: block;
@@ -20,6 +24,7 @@ body{
     justify-content: center;
 
 }
+
 
 .nav-bar{
     position: relative;
@@ -38,7 +43,6 @@ body{
     height: 29px;
 }
 .nav-item{
-    margin: ;
     display: flex;
 }
 
@@ -135,7 +139,6 @@ body{
 }
 
 .title-header{
-    text-align: center;
     padding-bottom: 40px;
     font-family: Nunito Sans,sans-serif;
     font-style: normal;
@@ -321,7 +324,7 @@ transition: opacity .45s ease-in-out;
     padding-right: 92px;
 }
 
-.list li{
+.box-rewarding-experience  .list li{
     float: left;
     display: grid;
     padding-right: 8px;
@@ -458,4 +461,144 @@ transition: opacity .45s ease-in-out;
     background-size: cover;
     background-position: 50%;
     margin-left: 8px;
+}
+
+.box-news{
+    padding: 88px 24px 56px 24px;
+}
+
+.news-items{
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    zoom: 1;
+    display: flex;
+}
+.news-items .list{
+    display: block;
+    width: 33.3333333%;
+
+}
+
+.box-news-inner{
+    padding-right: 10%;
+    padding-bottom: 48px;
+    /* cursor: pointer; */
+}
+
+.news-items img{
+    width: 100%;
+    max-width: 257px;
+}
+
+.name{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    color: #212b36;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+.date{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 14px;
+    color: #637381;
+}
+
+.btn-all-news{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.btn-view-all-news{
+    cursor: pointer;
+}
+.btn-view-all-news span{
+    color: #ec3232;
+}
+.box-footer{
+    background: #192129;
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    line-height: normal;
+    font-size: 14px;
+}
+.box-footer-inner{
+    padding-top: 64px;
+    width: 100%;
+    margin: auto;
+    max-width: 960px;
+}
+
+.footer-content{
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    zoom: 1;
+    display: block;
+    display: flex;
+}
+.footer-content .list{
+    min-width: 164px;
+    width: 25%;
+    display: block;
+}
+
+
+.box-footer .title{
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 14px;
+    color: #637381;
+    padding-bottom: 16px;
+}
+
+.box-footer ul{
+    list-style: none;
+}
+
+.box-footer li{
+    padding-bottom: 16px;
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    line-height: normal;
+    font-size: 14px;
+}
+
+.box-footer li a{
+    color: #fff;
+}
+
+.box-footer span{
+    line-height: 3.5em;
+    color: #637381;
+}
+.box-term-conditions{
+    padding: 48px 0px 48px 0px;
+    width: 100%;
+    display: flex;
+}
+
+.term-conditions{
+    text-align: left;
+    width: 50%;
+    display: inline-block;
+}
+.box-term-conditions .box-btn-mobile-app{
+ text-align: right;
+ width: 50%;
 }
